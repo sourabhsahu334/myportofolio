@@ -320,7 +320,7 @@ img {
 }
 
 .skills__html {
-  width: 95%;
+  width: 90%;
 }
 
 .skills__css {
@@ -328,11 +328,11 @@ img {
 }
 
 .skills__js {
-  width: 65%;
+  width: 80%;
 }
 
 .skills__ux {
-  width: 85%;
+  width: 65%;
 }
 
 .skills__img {
@@ -346,8 +346,11 @@ img {
 
 .work__img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-  border-radius: .5rem;
+  border-radius: .7rem;
   overflow: hidden;
+  height: 250px;
+  width: 300px;
+  object-fit: cover;
 }
 
 .work__img img {
@@ -471,7 +474,7 @@ img {
     margin-bottom: var(--mb-6);
   }
   .section-title::after {
-    width: 80px;
+    width: 320px;
     top: 3rem;
   }
   .nav {
